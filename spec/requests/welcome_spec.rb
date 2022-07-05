@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require 'rails_helper'
-
-RSpec.describe 'Welcomes', type: :request do
+describe 'Welcomes', type: :request do
   describe 'GET /index' do
     it 'returns http success' do
       get '/welcome/index'
