@@ -19,3 +19,5 @@ group :development, :test do
 end
 
 gem 'database_cleaner', '~> 2.0', group: :test
+
+gem 'dotenv-rails', '~> 2.7'
