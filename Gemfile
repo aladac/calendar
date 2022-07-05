@@ -15,3 +15,5 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 5.1'
 end
+
+gem 'database_cleaner', '~> 2.0', group: :test
