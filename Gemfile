@@ -11,6 +11,7 @@ gem 'rails', '~> 7.0.3'
 gem 'sprockets-rails'
 
 group :development, :test do
+  gem 'factory_bot_rails', '~> 6.2'
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 5.1'
 end
